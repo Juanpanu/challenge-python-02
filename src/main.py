@@ -23,7 +23,6 @@ def generate_password():
     psymbol= pass_sections(SYMBOLS)
     # Uno las secciones y las desordeno usando shuffle
     my_pass=(plower+pupper+pnumber+psymbol)
-    
     random.shuffle(my_pass)
     
     return my_pass
